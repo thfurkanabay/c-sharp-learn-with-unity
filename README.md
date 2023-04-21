@@ -54,10 +54,9 @@ variables bellekte tutualan verilerdir. aslında biz değişkeni kullanırekne o
   referans tipleri ise başka nesnelyr referans olarak kulanlırlar.
   referans tipleri bir çeşit bellek bölgesi olan heap alanında yaratılan veri türleriinin addreslerini saklarlar. values tipleri yaratıldıklarında stack te oluşturulurlar. referans tipleri ise heap dediğimiz bellek bölgesinde saklanırlar.
 - CTS(Common type system)
-- https://flylib.com/books/4/8/1/html/2/files/09fig01.gif![image](https://user-images.githubusercontent.com/26336737/233734188-0a70594a-0f3f-47dc-8c44-b25aa4001be6.png)
 
   
-  
+![09fig01](https://user-images.githubusercontent.com/26336737/233734259-cc284cdf-f8ae-4829-acc2-342338a7a4c6.gif)
 
   
   
