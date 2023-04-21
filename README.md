@@ -54,7 +54,7 @@ variables bellekte tutualan verilerdir. aslında biz değişkeni kullanırekne o
   referans tipleri ise başka nesnelyr referans olarak kulanlırlar.
   referans tipleri bir çeşit bellek bölgesi olan heap alanında yaratılan veri türleriinin addreslerini saklarlar. values tipleri yaratıldıklarında stack te oluşturulurlar. referans tipleri ise heap dediğimiz bellek bölgesinde saklanırlar.
 - CTS(Common type system)
-  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialsteacher.com%2Fcsharp%2Fcsharp-data-types&psig=AOvVaw1AQCgMzvnd4Vv1UPS6rPxv&ust=1682197218963000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICsyY_vu_4CFQAAAAAdAAAAABAI![image](https://user-images.githubusercontent.com/26336737/233733918-088ea48c-6f6c-46e4-a0e5-582f53e9e4a8.png)
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialsteacher.com%2Fcsharp%2Fcsharp-data-types&psig=AOvVaw1AQCgMzvnd4Vv1UPS6rPxv&ust=1682197218963000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICsyY_vu_4CFQAAAAAdAAAAABAf![image](https://user-images.githubusercontent.com/26336737/233734055-a341db48-15f5-4f5f-84c6-235a92bd2b29.png)
 
   
   
