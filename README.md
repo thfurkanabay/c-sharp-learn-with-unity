@@ -49,4 +49,7 @@ bool c;
   - static const a = 10 ; // static olmaz
   
 ## Value and Referance
-
+variables bellekte tutualan verilerdir. aslında biz değişkeni kullanırekne o değişkenin bellekte tutulduğu adresteki veriyr ulaşıyoruz.
+  values değişkenin değerini direkt ebellek bölgesinden alırlar.
+  referans tipleri ise başka nesnelyr referans olarak kulanlırlar.
+  referans tipleri bir çeşit bellek bölgesi olan heap alanında yaratılan veri türleriinin addreslerini saklarlar. values tipleri yaratıldıklarında stack te oluşturulurlar. referans tipleri ise heap dediğimiz bellek bölgesinde saklanırlar.
