@@ -1,5 +1,6 @@
 # c-sharp-learn-with-unity
 
+- [Run the app ](https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/create)
 - Console.WriteLine(" ");
 - Console.ReadLine();
 
@@ -30,13 +31,11 @@ Constant sabit değerler. Bu değerlerin değiştirilmesi mümkün değildir. sa
 VI. RAM olmayan
 Bellek bölgesini temsil etmeyen disk alanlarının temsik eder. bazılarını kalıcı olması istenir.bundan dolayı bazı veriler program sonlandığından disklere kaydedilir. Program calışmamdığında da verileri blmak istiyosak bunları kullanmalıyız.
 
-
 ### variables tanımlama
-
-- < data type> <name>
 int a;
 char e;
-bool c;
+bool c
+
   
   
 ## const
@@ -57,10 +56,12 @@ variables bellekte tutualan verilerdir. aslında biz değişkeni kullanırekne o
 
   
 ![09fig01](https://user-images.githubusercontent.com/26336737/233734259-cc284cdf-f8ae-4829-acc2-342338a7a4c6.gif)
-
+https://www.tutorialspoint.com/csharp/csharp_data_types.htm
   
-  
-  
+### Value Types
+- constructor (yapıcı işlevi)
+- value_type = new int();
+- https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-values
   
   
   
