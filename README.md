@@ -64,5 +64,30 @@ https://www.tutorialspoint.com/csharp/csharp_data_types.htm
 - https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-values
   
   
-  
+ 1. First c# program
+ 2. C# Datatypes
+ 3. Variables
+ 4. Variables tanımlama
+ 5. Variables faaliyet alanı
+ 6. Constant Expression
+ 7. Value and Referance types
+ 8. Value Types
+ 9. Byte
+ 10. sbyte
+ 11. short
+ 12. ushort
+ 13. int
+ 14. uint
+ 15. long
+ 16. ulong
+ 17. float
+ 18. double
+ 19. decimal
+ 20. bool
+ 21. char
+ 22. Sabit ayırtaçalrı
+ 23. Referans tipleri
+ 24. string
+ 25. object
+ 26. var
   
