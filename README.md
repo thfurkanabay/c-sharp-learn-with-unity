@@ -131,3 +131,63 @@ Bu kod, aşağıdaki kodla aynı işi yapar:`
 `string message = "Hello World!";`
 
 - Ancak 'var' kullanımı daha az yazı gerektirir ve kodun okunabilirliğini artırır. 'var' sadece yerel değişkenler için kullanılabilir ve sadece ilk değer ataması yapılan değişkenler için kullanılabilir. Ayrıca, 'var' kullanımı, kodun açık ve anlaşılır olması için uygun bir şekilde kullanılmalıdır.
+
+
+
+## Tür dönüşümü ( type conversion )
+- https://tr.wikibooks.org/wiki/C_Sharp_Programlama_Dili/Değişkenler (burdakileri öğren yaa büyük küçük ve değerlerini)
+- Örnek olarak sting bir 123 integere cevirip matematik işlem yapabilriiz
+- gelen veriyi mesela true bunu if bloğunda bool olarak kullanbilirz.
+- int değerim var mesela 50, bellek için bunu integ -> long yükseltebiliriiz
+- tür dönüşümlerinde amaç türü dönüşütürmek yani elimizede ki veriye uygun türe geçiş yapmaktur. uygun olmayan bir türe dönüştüremeyiz. öenek 'ahmet' -> int dönüştürmez.
+- sting '433' -> int, dec, .. .olur örnek bool olamaz.
+- string 'a' -> int olmaz ama char olur mesela.
+
+## metinselden diğer ifadelere
+
+### parse metodu
+- parse sadece string diğerlerine cevirirken
+- string x = "123"
+- int x2 = int.Parse(x) // x artık int olduğu için başka bir x e atıyorum
+- Debug.Log(x2*3) yaparsam 369 değerini bana döndürüür.
+### convert fonksiyonu
+- sadece string değil hepsini cevirir.
+- 
+## diğer ifadelerin stringe cevrilmesi
+
+### convert fonksiyonu
+- diğeri gibi
+### ToString metodu
+- foat f= 35;
+- f.ToString(); -- bu kadar
+- tüm türlerde hepsinde vardır.
+
+- bir veriyi kendisinden üst olan tür bilinçsiz tür dönüşümü
+- short değeri mesela byte değerine sığmayabilir.
+- int e her sığan byte a sığmayabilri meslea
+- alt türlere dar aralığa cevirirken bilinçli tür dönüşümğ
+- bir sayısal değer kendi türünden daha büyük değer aralığına sahip türkelere dönüşürken burada ehrhangi bir işlem yapmamız gerekmeyeceği için. bilinçsiz tür dönüşümü denir.
+- daha küçük değer aralığına sahip diğer türlere dön
+üşütürülken hedef türün ilgili veriyi karşıyamamam riskinden dolayı buradaki işlemi bilinçli ypmamız gerekecek bu da bilinçli tür dönüşümü denir.
+- bunlar sadece sayısal türerde geçerlidir.
+- bilmemem gerek yoksa bilinçsiz yanii benim düşünmeme gerek kalmıyor.
+- bilinçlice yap diyorum compiler ditek yapamıyacak.
+- diğerinde kendisi zaten yapıyor.
+- bir syısal türün alt türüne veriiy dönüştürdüğünüzxe alt türün değer aralığına girmiyorsa ne olur?
+- int - byte dönüştüdüğümzüde veri kaybı olur örnek 37000 mesela, durmadan 256 modunu yazacaktır.
+- compiler sorumluluk almaz.
+- Cast operatoru (bilinçli yapılcağı zaman)
+- Boxing işleminde de kullanılan cast
+- () bu cast operatoru.
+#### checked ve unchecked
+- check bilinçli yapılırken veri kaybı varsa runtimeda hata fırlatılmasını sağlar.
+- OverflowException: Arithmetic operation resulted in an overflow.hatası verir.
+- unchecked : bilinçli ise bunu görmezde gelir. runtime da hata vermez // defoult olan unchecttir zaten
+- boole dönüşümlerde 0 dışındakiler true 0 ise false dönüştürü.
+- char to sayısal türler ASCII kodunu verecekrie.
+
+
+
+
+
+
