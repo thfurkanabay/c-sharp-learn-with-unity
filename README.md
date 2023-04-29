@@ -224,6 +224,20 @@ Bu kod, aşağıdaki kodla aynı işi yapar:`
 - object bir dğeişkenin değer üzerinde türüne özgü işlm yapmak için o objectin içeirisindeki değeri kendi has özgün türünde elde etmem,z gerekir bu ilkeme de unboxing denir.
 - bir değer object ütre assign ediliyorsa bu boxingtir.
 ### cast operatörü
+- boxing edilmiş bir veriyi objecte assign edimiş bir veriyi kendi türünde elde etmemizi sağlayan bir operatordür.
+- cast : () budur. yanına object değeri alır.
+- cast op. parantezdir.
+- yanına object olan değişkenin solunda o objecti hangi türe unboxing etmek istiyorsak parantez içierisind ehedef türü bildirerek kullanılır.
+- int a = 5;
+- object b = a;
+- (int)b ; cadt b değişkeni yan objesi içeriisndeki değeri bana int olarak veriri.
+- unboxing
+- boxing edilmiş veriyi kendi öz türündeki nitelikleriyle kullanamuyoruz.
+- age değişkenini unbxing ederek çıkarmamız gerekioyr.
+- (int)_age --> bu artık integer oldu.
+- int age = (int)_age; // bunu arıtk yapabiliyorum.
+- boxing idlmiş verinin original türünü elde etmemiz gerekir.
+- int türünde boxing edilmiş veriyi int ütürnde unboxing edilcek.
 - 
 
 
