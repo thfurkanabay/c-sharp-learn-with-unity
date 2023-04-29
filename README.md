@@ -186,8 +186,52 @@ Bu kod, aşağıdaki kodla aynı işi yapar:`
 - boole dönüşümlerde 0 dışındakiler true 0 ise false dönüştürü.
 - char to sayısal türler ASCII kodunu verecekrie.
 
+## object türü
+- nedir: int age = 25;
+- string name. = "Ahmet";
+- _____________ = _____________ sağ vve sol eşit türlerde olmalı. assign yapılırken
+- object: tüm türleri karşılayabilen bir türdür.
+- neden karşılar: string,char, dec,mal, int, boolean... vardır bunların üst çatısı vardır o da objecttir.
+- tüm türler benden türerler diyecek.
+- tüm türler varsayılan olarak objectten türerler.
+- türeyen türetilen tarafınan temsil edilebilir. stirng bi yandan objecttir. o zman sağ sola göre int decimal stirng boolean hepsi objectte tutulabilri.
+- object referans türlü bir değişkendir.ancak değer türlü değerleri de karşılar.
+- strign name = "Gencay";
+- object name = "Gencay";
+- object değişkenler ilgili verileri ramde object türde tutarlar veririnin öz türünü de içerisinde bozmadna sakalrlar. object içindeki veriyi kendi öz verisidir.
+- bu durum suanlama gelir; object içerisindeki veriyi kendi türünde tekrar elde edebiliriz anlamına gelmektedir.
+- işte bu özellik **boxing** tir.
+- o veiriy object içeirnde. kendi türünden elde etmeye **unboxing** denilir.
+- Boxing, bir değeri (örneğin, bir int veya float) bir nesneye dönüştürme işlemidir. Bu işlem, değeri bir nesne gibi kullanmanız gerektiğinde, örneğin bir koleksiyon içinde saklamak istediğinizde veya bir methoda nesne olarak geçirmek istediğinizde kullanılabilir. Boxing işlemi performansı olumsuz etkileyebilir ve gereksiz bellek kullanımına neden olabilir. Bu nedenle, boxing işlemi mümkün olduğunca az kullanılmalıdır.
+
+- Unboxing, boxing işleminin tam tersidir. Bir nesneyi içeren bir değeri (örneğin, bir boxed int) orijinal değerine dönüştürme işlemidir. Bu işlem, bir nesne içinde saklanan bir değeri tekrar kullanmanız gerektiğinde veya bir methoddan nesne olarak döndürülen bir değeri orijinal değerine dönüştürmek istediğinizde kullanılabilir.
+- Vector3 veri tipi gibi tür uyumsuzluğu olan veri tipleri, performansı ve bellek kullanımını optimize etmek için kullanılır. Özellikle, Unity3D gibi gerçek zamanlı grafik uygulamalarında, yüksek performans gereksinimleri olduğundan, tür uyumsuzluğu olan veri tipleri tercih edilir.
+
+- Örneğin, bir oyun sahnesindeki birçok nesnenin pozisyon, rotasyon ve ölçek gibi bilgileri saklanır. Bu bilgileri Vector3, Quaternion ve Vector2 gibi tür uyumsuzluğu olan veri tipleri ile saklamak, bellek kullanımını optimize eder ve işlemci için daha az yük oluşturur. Böylece, oyun performansı artar ve daha hızlı çalışır.
+
+- Ayrıca, tür uyumsuzluğu olan veri tipleri, hata ayıklamayı da kolaylaştırır. Örneğin, bir vektörün x, y ve z bileşenlerindeki hataları tespit etmek için, tür uyumsuzluğu olan Vector3 veri tipi kullanarak kolayca hataları ayıklayabilirsiniz.
+
+- Sonuç olarak, tür uyumsuzluğu olan veri tipleri, performansı optimize etmek ve hata ayıklamayı kolaylaştırmak için kullanılır. Bu nedenle, Unity3D ve diğer gerçek zamanlı grafik uygulamalarında yaygın olarak kullanılırlar.
+
+- boxing: object bir türldeki bir değişkene herhangi bir türdeki değer, göndermek
+- int age = 25;
+- object _age = 25; //boxing 
+- bir tane object açıyor türü object içeirisne int ütürnde 25 i yerleşritor. kutulama boxing işlemi deniyorç herhangi bir değer objecte atadığınızda dönüştürüyor.
+- boxing neticesinde ilgili dğer kendi türüyle saklanır lakin age değişkeni artık 25 değerini object türde getirecektir.
+- _age obj 25 getirii.
+- türüne özgü işlemler gerçekleştirilemez. sayısal değer ıbject geliceğinden dolayı math işlemler yapılamaz.
+- bunun için unboxing yapılması gerekir.
+- object bir dğeişkenin değer üzerinde türüne özgü işlm yapmak için o objectin içeirisindeki değeri kendi has özgün türünde elde etmem,z gerekir bu ilkeme de unboxing denir.
+- bir değer object ütre assign ediliyorsa bu boxingtir.
+### cast operatörü
+- 
 
 
 
 
 
+
+
+
+
+- 
